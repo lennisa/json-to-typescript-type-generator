@@ -1,0 +1,33 @@
+export interface Location {
+  city: string;
+  zip?: string;
+}
+
+export interface Metadata {
+  score?: number;
+  verified: boolean;
+}
+
+export interface Profile {
+  age: null | number;
+  location: Location;
+  skills: string[];
+  experience?: number;
+}
+
+export interface Projects {
+  budget?: number;
+  completed: boolean;
+  teamSize?: number;
+  title: string;
+}
+
+export interface CompanyData {
+  email?: null | string;
+  id: number | string;
+  metadata?: Metadata | null;
+  name: string;
+  profile: Profile;
+  projects: Projects[];
+  tags?: string[];
+}
