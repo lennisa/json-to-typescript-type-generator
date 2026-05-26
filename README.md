@@ -1,4 +1,4 @@
-# JSON → TypeScript Type Generator
+# JSON to TypeScript Type Generator
 
 A deterministic TypeScript interface generator built in Python that converts JSON arrays into exact `.d.ts` interface declarations.
 
@@ -146,7 +146,7 @@ Provide input through **stdin**.
 ## Use Cases
 
 - Automatically generating TypeScript interfaces from JSON
-- Backend → frontend schema conversion
+- Backend to frontend schema conversion
 - Rapid API prototyping
 - JSON schema inspection
 - Type-safe frontend development
